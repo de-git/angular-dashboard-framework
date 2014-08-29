@@ -4,6 +4,10 @@
   "version": "master",
   "keywords": [],
   "dependencies": {
+    "components/jquery": "1.11",
+    "components/font-awesome": "master",
+    "frankwallis/foundation": "5.4.0",
+    "frankwallis/angular-foundation-bower": "master"
   },
   "main": "component/index.js",
   "scripts": [
@@ -11,9 +15,12 @@
     "src/scripts/*.js"
   ],
   "templates": [
-    "src/templates/*.html"
+    "src/templates/*.html",
+    "src/templates/foundation/*.html"
   ],
-  "styles": [],
+  "styles": [
+    "src/styles/main.css"
+  ],
   "files": [
   ],
   "repository": "de-git/angular-dashboard-framework"
